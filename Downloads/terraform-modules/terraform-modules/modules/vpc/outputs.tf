@@ -8,7 +8,9 @@ output "subnet_id1" {
 output "subnet_id2" {
   value = aws_subnet.pub_sub2
 }
-
+output "subnet_id3" {
+  value = aws_subnet.pub_sub3
+}
 
 
 
