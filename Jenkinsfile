@@ -1,5 +1,5 @@
 pipeline {
-           agent { label "ubuntu"}
+           agent { label "slave-1"}
            stages {
            stage('git checkout') {
                                   steps {
